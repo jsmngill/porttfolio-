@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: none;
+}
+.nav_mob{
+    display: flex;
+    flex-direction: column;
+    color: #21243D;
+}
+.mob_menu{
+    color: #21243D;
+    text-align: end;
+}
+@media only screen and (min-width: 600px){
+    .navbar{
+        display: flex;
+        font-family: 'Heebo', sans-serif;
+        align-items: flex-start;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: right;
+        float: right;
+    }
+    .menu{
+        padding:20px;
+    } 
+    .mob_menu{
+        display: none;
+    } 
+}

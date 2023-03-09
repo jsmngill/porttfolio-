@@ -114,6 +114,9 @@
         border: none;
     }
 }
+.posts{
+    padding-bottom: 22px;
+}
 .recent_posts{
     margin-top: 59px;
     background-color: #EDF7FA;
@@ -224,4 +227,20 @@
         color: #00A8CC;
         margin-right: 148px;
     }
+}
+.footer{
+    text-align: center;
+    margin-top: 52px;
+}
+.icons{
+    margin-right: 35px;
+}
+.copyright{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.56px;
+    margin-top: 26px;
+    text-align: center;
+    margin-left: -10px;
 }

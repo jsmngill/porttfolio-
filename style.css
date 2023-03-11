@@ -44,6 +44,10 @@
     justify-content: center;
     align-items: center;
 }
+.introduction{
+    justify-content: center;
+    align-items: center;
+}
 .intro_head{
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
@@ -63,7 +67,7 @@
     line-height: 23.5px;
     margin-top: 21px;
     margin-right: 23px;
-    margin-left:24px;
+    /*margin-left:24px;*/
     text-align: center;
 }
 .btn{
@@ -79,6 +83,7 @@
     justify-content: center;
     text-align: center;
     justify-items: center;
+    align-items: center;
     border: none;
 
 }
@@ -87,8 +92,8 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        margin-left: 148px;
-        margin-right: 149px;
+        /*margin-left: 148px;
+        margin-right: 149px;*/
         /*margin-top: 140px;*/
     }
     .introduction{
@@ -115,7 +120,7 @@
     .btn{
         text-align: left;
         margin-top: 38px;
-        margin-left: 20px;
+        margin-left: 0px;
         border: none;
         justify-content: center;
     }
@@ -144,8 +149,8 @@
     font-weight: 400;
     font-size: 18px;
     color: #21243D;
-    margin-left: 135px;
-    margin-right: 135px;
+    /*margin-left: 135px;
+    margin-right: 135px;*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -243,6 +248,7 @@
 .footer{
     text-align: center;
     margin-top: 52px;
+    margin-bottom: 52px;
 }
 .icons{
     margin-right: 35px;
@@ -268,7 +274,8 @@
 }
 .work_img{
     text-align: left;
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
+    margin-top: 30px;
 }
 /*.works{
     margin-left: 2rem;
@@ -322,6 +329,7 @@
     }
     .work_img{
         margin-right: 2rem;
+        margin-bottom: 32px;
     }
     .work_content{
         width: 593px;

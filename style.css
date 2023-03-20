@@ -215,13 +215,15 @@
         display: flex;
         justify-content: space-between;
         margin: auto;
+        justify-content:center;
+        text-align: center;
     }
     .view{
       display: inline;
     }
     .post{
         font-size: 22px;
-        margin-left: 148px;
+        /*margin-left: 148px;*/
     }
     .posts{
         display: flex;
@@ -246,7 +248,7 @@
         font-size: 16px;
         padding-top: 27px;
         color: #00A8CC;
-        margin-right: 148px;
+        /*margin-right: 148px;*/
     }
 }
 .footer{
